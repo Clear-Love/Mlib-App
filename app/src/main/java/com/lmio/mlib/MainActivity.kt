@@ -42,7 +42,9 @@ class MainActivity : AppCompatActivity(), FragmentCallback {
 
         setSupportActionBar(binding.appBarMain.toolbar)
 
-        db = AppDatabase.createRoom(applicationContext)
+        val inputStream = resources.openRawResource(R.raw.lib)
+
+        db = AppDatabase.createRoomFromStream(applicationContext, inputStream)
 
         // 在协程中执行数据库操作
         GlobalScope.launch(Dispatchers.IO) {
