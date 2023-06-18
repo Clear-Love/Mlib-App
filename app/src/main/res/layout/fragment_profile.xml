@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:orientation="vertical"
+    tools:context=".ui.profile.ProfileFragment">
+
+    <ImageView
+        android:id="@+id/imageAvatar"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/avatar_assistant"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:contentDescription="头像" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/textNickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/username"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="16dp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@id/text_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/username"
+        android:textSize="16sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="8dp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@id/text_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/email"
+        android:textSize="16sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="8dp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/textBio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:text="@string/Introduction"
+        android:textSize="16sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

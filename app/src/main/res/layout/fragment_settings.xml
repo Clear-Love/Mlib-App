@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_marginTop="?attr/actionBarSize"
+    tools:context=".ui.settings.SettingsFragment">
+
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switchNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="通知"
+        android:layout_margin="16dp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="音量"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_margin="16dp" />
+    <com.google.android.material.slider.Slider
+        android:id="@+id/sliderVolume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:valueFrom="0"
+        android:valueTo="100"
+        android:layout_marginTop="16dp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="语言"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_margin="16dp" />
+
+    <com.google.android.material.radiobutton.MaterialRadioButton
+        android:id="@+id/radioButtonEnglish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English"
+        android:layout_marginStart="16dp" />
+
+    <com.google.android.material.radiobutton.MaterialRadioButton
+        android:id="@+id/radioButtonSpanish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="简体中文"
+        android:layout_marginStart="16dp" />
+
+    <com.google.android.material.radiobutton.MaterialRadioButton
+        android:id="@+id/radioButtonFrench"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="繁体中文"
+        android:layout_marginStart="16dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="保存"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>
