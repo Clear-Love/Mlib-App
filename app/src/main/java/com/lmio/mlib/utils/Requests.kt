@@ -16,7 +16,7 @@ import java.net.CookiePolicy
 import java.util.concurrent.TimeUnit
 
 object Requests {
-    private const val BASE_URL = "http://10.0.2.2:8080/"
+    private const val BASE_URL = "https://book.lmio.xyz"
     private lateinit var request: ApiService
 
     fun getApiService(): ApiService {
