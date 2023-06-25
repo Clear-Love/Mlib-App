@@ -1,5 +1,7 @@
 # Mlib-App
 
+![](https://pan.lmio.xyz/pic/1819afd45528a6d5e6a34f7be747ebd6.jpg)
+
 ### 使用的技术栈
 #### app
 - Kotlin 是一种跨平台、静态类型、面向对象的编程语言，它是一种现代化的语言，可以帮助开发者编写更简洁、更可读、更易于维护的代码。Kotlin 是一种基于 JVM 的语言，与 Java 兼容，并且可以与 Java 代码无缝集成。Kotlin 也可以编译为 JavaScript 或本地代码，因此可以用于多种应用程序开发，包括 Android 应用程序、Web 应用程序和桌面应用程序。
@@ -80,5 +82,3 @@
 git clone https://github.com/Clear-Love/Mlib-App.git # app
 git clone https://github.com/Clear-Love/mlib.git # 后端
 ```
-
-- 初始化数据库
